@@ -1,0 +1,131 @@
+/* For home page */
+body {
+    padding-left: 4%;
+    padding-right: 4%;
+    max-width:1240px;
+}
+.navigation {
+    display:flex;
+    height: 100%;
+    padding-right: 0;
+    margin-right:0;
+}
+.minilogo img{
+    width:80%;
+    height:100%;
+}
+.right {
+    display:flex;
+    flex-direction:column;
+}
+.links {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.statement {
+    width: 120%;
+    font-family: 'sacramento', cursive;
+    font-size: 30px;
+    padding-right:60%;
+    padding-top:3%; 
+}
+.mini {
+    height: 50%;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #12802a;
+    font-size: 25px;
+    padding: 5px;
+}
+a:hover{
+    text-decoration: none;
+    background-color: #12802a;
+    color: white;
+    font-size: 25px;
+}
+a:active {
+    text-decoration: none;
+    background-color: #12802a;
+    color: white;
+    font-size: 25px;   
+}
+.services {
+    margin-top:90%;
+    display:flex;
+}
+.services h1 {
+    color: #12802a;
+    font-size: 40px;
+}
+.services li {
+    font-size: 30px;
+}
+.treble {
+    padding-left: 20%;
+}
+
+
+
+/* For about page */
+.mission {
+    display:flex;
+    }
+.mleft,p{
+    font-size: 20px; 
+    line-height: 1.5;
+    }   
+.mright {
+    width: 70%;
+    height: 70%;
+    padding-left: 4%;
+}
+.values {
+    display:flex;
+    padding: 4%;
+}
+li {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.vright {
+    padding-left: 4%;
+}
+
+/* For contact page */
+.flexcontainer {
+    display: flex;
+}
+.form {
+  width: 70%;
+  padding: 4%;
+padding-top: 0;
+    margin-top: 0;
+}
+.form h2 {font-family:'sacramento',cursive;
+font-size: 50px;
+text-align: center;
+line-height: 1;
+}
+.form h3 {
+    font-size: 25px;
+    color: dimgrey;
+}
+.form h1 {
+    color: #12802a;
+}
+.form p {
+    line-height: .5;
+    color:dimgrey;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.image p {
+    color:dimgrey;
+}
+    
