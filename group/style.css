@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.aanav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #DEB887;
+    color: #FFFFFF;
+}
+
+.aanav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.aanav a:hover{
+    color: #A9A9A9;
+}
+
+.aaintro{
+    text-align: center;
+}
+
+.aaintro h1{
+    font-family: 'Julius Sans One', sans-serif;
+    color: #FA8072;
+    font-size: 60px;
+}
+
+.aaintro h2{
+    font-size: 30px;
+}
+
+.aaintro img{
+    width: 100%;
+}
+
+.aacontact img{
+    max-width: 20px;
+}
+
+.aacontact{
+    flex: 1;
+}
+
+.aasupport, .aaemail{
+    flex: 2;
+}
+
+.aacontainer{
+    display: flex;
+    justify-content: space-between;
+}
+/*End of Abiola code, beginning of Liza*/
+
+.lwtitle{
+    background-color:burlywood;
+    color:white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 3%;
+   
+}
+.lwtitle img {
+    height: 10%;
+    padding-bottom: 3%;
+}
+.lwtitle h2 {
+    margin: 0;
+}
+.lwtitle h1 {
+    font-size: 100px;
+    margin:0;
+}
+.lwinfo {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17;
+    letter-spacing: .75;
+}
+
+.lwimage {
+    height:200%;
+    background-image: url("images/my.ba-wan.JPG");
+    background-size:auto 100%;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.lwhistory h1 {
+     font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    
+.lwhistory {
+    margin-bottom: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17;
+    letter-spacing: .75;
+}
+.lwfooter img{
+    height: 10%;
+    padding-bottom: 3%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.lwfooter {
+    background-color:burlywood; 
+    padding-top: 3%;
+}
+/*End of Liza code, beginning of Kerry*/
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	/* padding: 0; */
+}
+
+p.blocktext1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+	line-height: 1.3em;
+}
+
+/* Review */
+#review {
+	padding-top: 15px;
+	letter-spacing: 1px;
+} 
+
+/* Header */
+h2 {
+	margin-top: 17px;
+}
+
+header {
+	background: #deb887;
+	color: #ffffff;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: #deb887 5px solid;
+	width: 100%;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url(images/bawansteamerimage.JPG);
+
+    /* Set a specific height */
+	height: 50%; 
+	
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The hero text */
+.hero-text {
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+} 
+
+/* Map */
+#map {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+/* Address */
+.address {
+	line-height: 5px;
+}
+
+/*Footer */
+footer {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 3px;
+  margin-top: 3px;
+  color: #ffffff;
+  background-color: #deb887;
+  text-align: center;
+  line-height: .25;
+}
+/*End of Kerry code, beginning of Rocio*/
+
+/*Rocio's css is added to document*/
+body, html{
+           font-family: 'Roboto', sans-serif;
+           
+}
+
