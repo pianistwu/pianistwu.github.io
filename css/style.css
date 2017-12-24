@@ -11,62 +11,97 @@ body {
     margin-right:0;
 }
 .minilogo img{
-    width:80%;
-    height:100%;
+    max-width: 400px;
+    flex: 1;
 }
 .right {
     display:flex;
     flex-direction:column;
+    max-height: 180px;
+    flex: 2;
 }
 .links {
     display: flex;
     flex-direction: row-reverse;
+    padding-top: 15px;
 }
 .statement {
-    width: 120%;
     font-family: 'sacramento', cursive;
-    font-size: 30px;
-    padding-right:60%;
-    padding-top:3%; 
+    font-size: 23px; 
+    padding-top: 10px;
+
+}
+.statement h1 {
+    float: left;
+    padding-left: 10px;
 }
 .mini {
-    height: 50%;
-    padding: 8px;
+    padding-right: 25px;
 }
 
-a {
+.mini a {
     text-decoration: none;
     color: #12802a;
     font-size: 25px;
-    padding: 5px;
 }
-a:hover{
+.mini a:hover{
     text-decoration: none;
     background-color: #12802a;
     color: white;
     font-size: 25px;
 }
-a:active {
+.mini a:active {
     text-decoration: none;
     background-color: #12802a;
     color: white;
     font-size: 25px;   
 }
-.services {
-    margin-top:90%;
-    display:flex;
-}
-.services h1 {
-    color: #12802a;
-    font-size: 40px;
-}
-.services li {
-    font-size: 30px;
-}
-.treble {
-    padding-left: 20%;
-}
 
+.slides {
+    width: 100%;
+    height: 700px;
+    background-color: lightgray;
+    border: 10px #12802a solid;
+}
+.pic-wrapper {
+    margin-top: 3%;
+    max-width: 53%;
+    Margin-left: 13%;
+    max-height: 550px;
+    background-color: lightgray;
+    border: lightgray solid 20px;
+   
+}
+.services {
+    width: 100%;
+    height: 700px;
+    padding-top: 2%;
+    background-color: lightgray;
+    display:flex;
+    border: #12802a solid 10px;
+    border-top: 0px;
+    margin-bottom:15%;
+}
+.text {
+    flex:2;
+}
+.text p {
+    color: #12802a;
+    font-size: 45px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.text li {
+    font-size: 40px;
+    padding-left: 40px;
+}
+.logo img{
+    max-width: 400px;
+    background-color: white;
+    margin-top: 39%;
+    margin-right: 20px;
+    flex: 1;
+}
 
 
 /* For about page */
@@ -76,7 +111,12 @@ a:active {
 .mleft,p{
     font-size: 20px; 
     line-height: 1.5;
-    }   
+    }
+.mleft,a{
+    text-decoration:none;
+    font-size: 25px;
+    
+}
 .mright {
     width: 70%;
     height: 70%;
@@ -85,9 +125,10 @@ a:active {
 .values {
     display:flex;
     padding: 4%;
+    
 }
 li {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
 }
 .vright {
@@ -98,25 +139,26 @@ li {
 .flexcontainer {
     display: flex;
 }
-.form {
+.info {
   width: 70%;
   padding: 4%;
 padding-top: 0;
     margin-top: 0;
 }
-.form h2 {font-family:'sacramento',cursive;
+.info h2 {font-family:'sacramento',cursive;
 font-size: 50px;
 text-align: center;
 line-height: 1;
 }
-.form h3 {
+.info h3 {
     font-size: 25px;
     color: dimgrey;
 }
-.form h1 {
+.info a{
     color: #12802a;
+    text-decoration:none;
 }
-.form p {
+.info p {
     line-height: .5;
     color:dimgrey;
 }
@@ -125,7 +167,33 @@ line-height: 1;
     height: 100%;
     margin-top: 30px;
 }
-.image p {
-    color:dimgrey;
+.form {
+    display:flex;
+    margin-top: 10%;
+      color: dimgrey;
+    padding-bottom: 10%;
 }
-    
+.message {
+    flex:1;
+    margin-top: 10%;
+}
+.blanks {
+    flex:1;
+    font-size: 25px;
+}
+input{
+    border: 1px dimgrey solid;
+}
+.small input {
+    width:50%;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 14px;
+}  
+.large input {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
