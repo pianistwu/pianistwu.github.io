@@ -108,6 +108,9 @@ body {
 .mission {
     display:flex;
     }
+.mission h1 {
+    line-height: 1.5;
+}
 .mleft,p{
     font-size: 20px; 
     line-height: 1.5;
