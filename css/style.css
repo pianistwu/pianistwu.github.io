@@ -37,6 +37,7 @@ body {
 }
 .mini {
     padding-right: 25px;
+    line-height: 1;
 }
 
 .mini a {
